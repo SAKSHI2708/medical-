@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn a{
+    text-decoration: none
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@200&display=swap');
+/*########################################## NAVBAR ############################################*/
+
+.navbar{
+    padding: 1rem;
+    background-color: #000000;
+}
+
+.navbar a{
+    padding: 0.3rem 0.9rem ;
+    color: white;
+}
+
+.navbar a:hover{
+    color: rgb(254, 197, 65);
+}
+
+.collapse{
+    justify-content: right;
+}
+
+.navbar-nav a{
+    padding: 0 1.2rem;
+}
+
+/*#########################################  HOME PAGE #################################################### */
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 20px;
+    height: 641px;
+    align-items: center;
+    justify-content: center;
+}
+
+.info::before{
+    content: '';
+    background: url(./images/background.jpg)no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 641px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+.info h2{
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.home-2{
+    display: flex;
+    flex-direction: row;
+    padding: 3rem 13rem;
+    /* margin: 0 6rem; */
+    background-color: rgb(158, 255, 223);
+}
+
+.therepy h2{
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.therepy p{
+    text-align: center;
+    justify-content: center;
+    padding: 0 7rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.contact form{
+    padding: 8rem;
+    width: auto;
+    border-radius: 1rem;
+}
+
+.contact input{
+    border-radius: 1em;
+    width: 350px;
+    padding: 0.5rem;
+}
+
+.life h2{
+    text-align: center;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.life-card{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+    margin: 1rem;
+    padding: 2rem;
+    height: fit-content;
+    background-color: black;
+}
+
+.card p{
+    color: white;
+}
+
+/*########################################## ABOUT PAGE ############################################### */
+
+.about-1{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+}
+
+.info-about {
+    margin: auto 0;
+}
+
+.info-about h2{
+    text-align: center;
+    justify-content: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+.info-about p{
+    text-align: center;
+    padding: 1.5rem;
+    justify-content: center;
+}
+
+.about-2 h2{
+    justify-content: center;
+    text-align: center;
+}
+
+.siddharth{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 15rem;
+}
+
+.siddharth img{
+    height: 400px;
+}
+
+.sid-info {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.sanket{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 15rem;
+}
+
+.sanket img{
+    height: 400px;
+}
+
+.san-info {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.sarthak{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 15rem;
+}
+
+.sarthak img{
+    height: 400px;
+}
+
+.sar-info {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.vaibhav{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 15rem;
+}
+
+.vaibhav img{
+    height: 400px;
+}
+
+.vai-info {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+.sakshi{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem 15rem;
+}
+
+.sakshi img{
+    height: 400px;
+}
+
+.sak-info {
+    justify-content: center;
+    text-align: center;
+    padding: 5rem;
+}
+
+/*########################################### CONTACT PAGE ############################################# */
+
+.contact h1{
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+}
+
+.contact h2{
+    padding: 0 4rem;
+}
+
+.address {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.address h3{
+    padding: 0 2rem;
+}
+
+.second-part{
+    display: flex;
+    flex-direction: row;
+    padding: 4rem;
+    justify-content: center;
+}
+
+.online{
+    display: flex;
+    flex-direction: row;
+}
+
+.online h3{
+    padding: 2rem;
+    text-align: center;
+}
+
+.online p{
+    text-align: center;
+}
+
+.mail{
+    display: flex;
+    flex-direction: row;
+}
+
+.mail h3{
+    padding: 0 3rem;
+}
+/* ########################################### FOOTER ###################################################*/
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.foot-up{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.address {
+    margin: 3rem 5rem 2rem;
+}
+
+.address span{
+    display: block;
+}
+
+.information{
+    justify-content: center;
+    margin: 3rem 5rem 2rem;
+}
+
+.organisation{
+    justify-content: center;
+    margin: 3rem 5rem 2rem;
+}
+
+.contacts{
+    justify-content: centre;
+    margin: auto 3rem;
+
+}
+
+.foot-down{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.foot-down p{
+    text-align: center;
+    text-justify: auto;
+}
+
+.foot-logo{
+    margin: auto;
+}
+
+.terms ul{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.terms ul li{
+    list-style: none;
+    padding: 1rem;
+}
+
+.icons{
+    margin: auto;
+}
+
+.icons svg{
+    margin: 1rem;
+}
